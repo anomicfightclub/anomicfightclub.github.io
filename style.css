@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: font;
+}
+
+@font-face {
+    font-family: font;
+    src: url(src/fixedsys.ttf);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    border-left: 4px ridge navy;
+    border-top: 4px ridge navy;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 8px 8px dodgerblue;
+    max-width: 25rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#mainTitle {
+    font-size: xx-large;
+}
+
+hr {
+    border-color: navy;
+}
+
+#chat { border: 4px blue ridge; }
+
+#fcIMG {
+    width: 25rem;
+}
