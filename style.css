@@ -39,3 +39,11 @@ hr {
 #fcIMG {
     width: 25rem;
 }
+
+#logo {
+    width: 8rem;
+    border-left: 4px double dodgerblue;
+    border-top: 4px double lightblue;
+    background-color: black;
+    box-shadow: 6px 6px navy;
+}
